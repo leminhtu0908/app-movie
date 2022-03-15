@@ -1,0 +1,151 @@
+.homepage {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/da15bb84-a1f7-4e25-af24-6c8e8ce9db64/VN-vi-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  &__title {
+    color: #e50914;
+    line-height: 90px !important;
+    font-weight: 900 !important;
+    font-size: 30px !important;
+    padding: 0 0px 20px 30px !important;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.appbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  &__header {
+    color: #e50914;
+    font-weight: 900 !important;
+    font-size: 30px !important;
+  }
+  &__btn {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #f80814;
+      opacity: 0.8;
+    }
+  }
+}
+.content {
+  text-align: center;
+  color: #fff;
+  padding: 75px;
+  border-bottom: 8px solid #222;
+  &__title {
+    font-size: 3.125rem;
+    margin: 0 40px;
+  }
+  &__text {
+    font-weight: 600;
+  }
+  &__subtext {
+    font-weight: 600;
+    margin: 10px 40px;
+  }
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    & > button {
+      font-weight: 700;
+      font-size: 20px;
+      padding: 10.5px;
+    }
+  }
+}
+.freeplanAnroid {
+  padding: 70px 45px;
+  background-color: #000;
+  opacity: 0.95;
+  color: #fff;
+  display: flex;
+  border-bottom: 8px solid #222;
+
+  &__left {
+    flex-basis: 49%;
+    padding-right: 30px;
+    &__dowload {
+      display: flex;
+      & > a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      &--icon {
+        font-size: 20px;
+        margin: 6px;
+      }
+    }
+  }
+  &__right {
+    flex-basis: 49%;
+    & > img {
+      width: 100%;
+    }
+  }
+}
+.question {
+  padding: 70px 45px;
+  background-color: #000;
+  opacity: 0.95;
+  color: #fff;
+  text-align: center;
+  border-bottom: 8px solid #222;
+  &__icon {
+    color: #fff !important;
+    font-size: 30px !important;
+  }
+}
+.footer {
+  padding: 70px 45px;
+  background-color: #000;
+  opacity: 0.95;
+  & > a {
+    color: rgb(223, 217, 217);
+    text-decoration: none;
+  }
+  &__list {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    & > li {
+      list-style: none;
+      margin: 10px 0;
+      & > a {
+        color: rgb(223, 217, 217);
+        text-decoration: none;
+        padding: 20px;
+        font-size: 13px;
+        text-align: left;
+      }
+    }
+  }
+  & > p {
+    color: rgb(223, 217, 217);
+  }
+}
